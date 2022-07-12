@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <!--NAV-->
+    <!--
     <nav class="navbar navbar-expand-lg  ms_header">
-        <div class="container justify-content-center">
+        <div class="container justify-content-between">
             <div>
                 <a href="#" class="navbar-brand">START BOOTSTRAP</a>
             </div>
@@ -36,11 +37,40 @@
                 </ul>
             </div>
         </div>
-    </nav>
-    </header>
+    </nav>-->
+   <div class="container">
+        <nav class="navbar d-flex justify-content-between flex-row navbar-expand-md navbar-light">
+            <div>
+            <a href="#" class="navbar-brand">START BOOTSTRAP</a>
+            </div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+   </div>
     
     <main>
-    <section class="bg-info text-light p-5 text-center">
+    <section class="ms_teal text-light p-5 text-center">
         <div class="container">
             <div class="d-flex flex-column">
                 <div>
@@ -118,18 +148,18 @@
     </section>
 
 <!--ABOUT SECTION-->
-    <section class="p-5 text-center bg-info">
+    <section class="p-5 text-center ms_teal">
         <div class="container">
         <div>
             ABOUT
         </div>
         <div class="d-flex justify-content-center align-items-center">
-            <div style="height: 0px;" class=" w-25 border border-dark border-2">
+            <div style="height: 0px;" class=" w-25 border border-white border-2">
             </div>
             <div class="display-1">
                 &star;
             </div>
-            <div style="height: 0px;" class=" w-25 border border-dark border-2">
+            <div style="height: 0px;" class=" w-25 border border-white border-2">
             </div>
         </div>
         <div class="row">
@@ -140,7 +170,7 @@
                 <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, autem quos alias dolorem delectus, voluptate qui maxime reiciendis ea in corporis officia porro quidem voluptas. Quod ipsam praesentium voluptate delectus ut. Similique cupiditate, officiis minima asperiores debitis cum hic vel.</p>
             </div>
         </div>
-        <button class="border btn-outline-primary">
+        <button class="ms_download_button border btn-outline-primary">
             DOWLOAD
         </button>
         </div>
@@ -169,14 +199,14 @@
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
         </div>
         <hr>
-        <button class="bg-info float-left">
+        <button class=" float-left btn-outline-primary ms_send_button">
             SEND
         </button>
         </div>
     </section>
 
     <!--FOOTER SECTION-->
-    <footer class="p-5 text-center bg-dark">
+    <footer class="p-5 text-center">
         <div class="row ms_footer_info">
             <div class="col-12 col-sm-4">
                 <h3>LOCATION</h3>
@@ -198,7 +228,7 @@
             </div>
         </div>
     </footer>
-    <footer class="p-5 text-center bg-dark">
+    <footer class="p-5 text-center ms_footer_copyright">
         <div>
             <p>Copyright © Your Website 2019</p>
         </div>
