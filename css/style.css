@@ -9,3 +9,15 @@ a   {
     text-decoration: none;
     color: white;
 }
+
+.ms_freelancer_img  {
+    width: 10rem;
+}
+
+footer {
+    color: white;
+}
+
+.ms_social_icon    {
+    margin: 0.5rem;
+}
