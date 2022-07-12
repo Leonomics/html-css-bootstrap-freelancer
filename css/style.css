@@ -4,18 +4,14 @@
     --footer:#3a546d;
 }
 
+.ms_header  {
+    background-color: var(--header);
+}
+
 
 .ms_teal    {
     background-color: var(--teal);
     color: white;
-}
-
-
-.ms_header  {
-    background-color: blue;
-    color: white;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 a   {
